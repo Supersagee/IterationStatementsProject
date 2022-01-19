@@ -70,7 +70,7 @@ namespace IterationStatements
             // Decrement i by 1
 
             //start for loop here
-            for (var i = 199; i <= numbers.Count; i--)
+            for (var i = 199; i <= numbers.Count && i >= 0; i--)
             {
                 Console.WriteLine(numbers[i]);
                 // place numbers[i] inside of the Console.WriteLine() method
